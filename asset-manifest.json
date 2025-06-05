@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KFSB-STUDENT-VISA-WEBSITE/static/css/main.e771c321.css",
-    "main.js": "/KFSB-STUDENT-VISA-WEBSITE/static/js/main.8b2ebda0.js",
-    "static/js/453.57404eb1.chunk.js": "/KFSB-STUDENT-VISA-WEBSITE/static/js/453.57404eb1.chunk.js",
-    "index.html": "/KFSB-STUDENT-VISA-WEBSITE/index.html",
-    "main.e771c321.css.map": "/KFSB-STUDENT-VISA-WEBSITE/static/css/main.e771c321.css.map",
-    "main.8b2ebda0.js.map": "/KFSB-STUDENT-VISA-WEBSITE/static/js/main.8b2ebda0.js.map",
-    "453.57404eb1.chunk.js.map": "/KFSB-STUDENT-VISA-WEBSITE/static/js/453.57404eb1.chunk.js.map"
+    "main.css": "/static/css/main.e771c321.css",
+    "main.js": "/static/js/main.9ef34e77.js",
+    "static/js/453.57404eb1.chunk.js": "/static/js/453.57404eb1.chunk.js",
+    "index.html": "/index.html",
+    "main.e771c321.css.map": "/static/css/main.e771c321.css.map",
+    "main.9ef34e77.js.map": "/static/js/main.9ef34e77.js.map",
+    "453.57404eb1.chunk.js.map": "/static/js/453.57404eb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e771c321.css",
-    "static/js/main.8b2ebda0.js"
+    "static/js/main.9ef34e77.js"
   ]
 }
