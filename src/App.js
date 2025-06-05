@@ -23,9 +23,9 @@ function App() {
       <nav className="fixed w-full top-0 left-0 bg-black text-white py-4 shadow-md z-50">
         <div className="max-w-screen-xl mx-auto flex flex-col items-center px-4">
           {/* Logo */}
-          <div className="text-2xl font-bold mb-4 flex items-center">
+          <div className="text-6xl font-bold mb-4 flex items-center italic">
             <span className="text-red-500">K</span>
-            <span className="text-black">FSB</span>
+            <span className="text-white">FSB</span>
           </div>
 
           {/* Hamburger Menu Button */}

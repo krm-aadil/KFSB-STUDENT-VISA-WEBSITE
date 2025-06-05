@@ -2,12 +2,12 @@ import React from 'react';
 
 function BusinessSection() {
   return (
-    <section className="py-20 bg-gray-100 text-center" id="explore">
-      <h2 className="text-3xl font-bold text-black mb-6">Key Business Areas</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-lg shadow-lg">
+    <section className="py-20 bg-black text-center" id="explore">
+      <h2 className="text-4xl font-bold text-white mb-6 ">Key Business Areas</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-4">
+        <div className="bg-white  rounded-lg shadow-lg">
           <img
-            src="/mnt/data/WhatsApp Image 2025-06-05 at 15.47.32.jpeg" // Replace with relevant image for Global Education
+            src="https://www.korea.net/upload/content/editImage/20210728121137334_JKY8R3I1.jpg" // Replace with relevant image for Global Education
             alt="Global Education"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
@@ -15,7 +15,7 @@ function BusinessSection() {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
-            src="/mnt/data/4.jpeg" // Replace with relevant image for Trade and Distribution
+            src="https://www.lloydslist.com/-/media/lloyds-list/images/stock-images/flags/south-korea-flag-containers-trade.png?rev=391158be41d94a40bbbf2b24db85d6a8" // Replace with relevant image for Trade and Distribution
             alt="Trade and Distribution"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
@@ -23,7 +23,7 @@ function BusinessSection() {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
-            src="/mnt/data/5.jpeg" // Replace with relevant image for Real Estate
+            src="https://images.mansionglobal.com/im-335269?width=1299&height=867" // Replace with relevant image for Real Estate
             alt="Real Estate Development"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />

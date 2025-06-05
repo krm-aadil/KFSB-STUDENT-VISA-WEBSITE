@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section
       className="relative bg-cover bg-center h-screen"
-      style={{ backgroundImage: "url('/mnt/data/6.jpeg')" }} // Replace with your hero background image
+      style={{ backgroundImage: "url('https://cms-image-bucket-production-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com/images/1/8/4/9/35319481-1-eng-GB/2021-07-12T130901Z_711479074_RC2XIO9UED5U_RTRMADP_3_HEALTH-CORONAVIRUS-SOUTHKOREAre.jpg')" }} // Replace with your hero background image
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
