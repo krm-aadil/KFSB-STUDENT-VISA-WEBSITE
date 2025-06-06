@@ -5,7 +5,7 @@ function BusinessSection() {
     <section className="py-20 bg-black text-center" id="explore">
       <h2 className="text-4xl font-bold text-white mb-6 ">Key Business Areas</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-4">
-        <div className="bg-white  rounded-lg shadow-lg">
+        <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
             src="https://media.istockphoto.com/id/1313809238/photo/happy-multiracial-group-of-students-taking-selfie-closeup.jpg?s=612x612&w=0&k=20&c=qxd81NEwqVGkzgen-jRgHEC6hIu7OIm8QgcU-miCuQE=" // Replace with relevant image for Global Education
             alt="Global Education"
@@ -29,7 +29,7 @@ function BusinessSection() {
           />
           <p className="text-lg text-gray-700">Real Estate Development & Smart City Projects to create sustainable urban environments.</p>
         </div>
-        <div className="bg-white  rounded-lg shadow-lg">
+        <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
             src="https://storage.googleapis.com/cdn.media.bluedot.so/bluedot.koreaexpose/wordpress/2018/02/Solar_agriculture_945.jpg" // Replace with relevant image for Global Education
             alt="Global Education"
