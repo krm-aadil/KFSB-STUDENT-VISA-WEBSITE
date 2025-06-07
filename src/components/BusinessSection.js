@@ -66,6 +66,3 @@ function BusinessSection() {
 }
 
 export default BusinessSection;
-
-
-export default BusinessSection;
