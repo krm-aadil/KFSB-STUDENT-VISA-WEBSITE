@@ -20,12 +20,18 @@ function App() {
   return (
     <div className="font-sans bg-white">
       {/* Navbar */}
-      <nav className="fixed w-full top-0 left-0 bg-black text-white py-4 shadow-md z-50">
+      <nav className="fixed w-full top-0 left-0 bg-white text-white py-4 shadow-md z-50">
         <div className="max-w-screen-xl mx-auto flex flex-col items-center px-4">
-          {/* Logo */}
-          <div className="text-6xl font-bold mb-4 flex items-center italic">
+          {/* Main Logo */}
+          <div className="text-6xl font-bold mb-0 flex items-center italic"> {/* Reduced mb from 2 to 1 */}
             <span className="text-red-500">K</span>
-            <span className="text-white">FSB</span>
+            <span className="text-black">FSB</span>
+          </div>
+
+          {/* Additional Text Below Logo */}
+          <div className="text-center mb-2 font-semibold"> {/* Reduced mb from 4 to 2 */}
+            <p className="text-sm text-black">Korea Federation Small Business</p>
+            <p className="text-lg text-black">KFSB LANKA (PVT) LTD</p>
           </div>
 
           {/* Hamburger Menu Button */}
@@ -41,10 +47,10 @@ function App() {
           <ul
             className={`${menuOpen ? "block" : "hidden"} md:flex md:flex-row flex-col md:space-x-8 space-y-4 md:space-y-0 w-full`}
           >
-            <li><a href="#home" className="text-xl hover:text-red-500 transition duration-300 w-full text-center">Home</a></li>
-            <li><a href="#about" className="text-xl hover:text-red-500 transition duration-300 w-full text-center">About</a></li>
-            <li><a href="#explore" className="text-xl hover:text-red-500 transition duration-300 w-full text-center">Explore</a></li>
-            <li><a href="#contact" className="text-xl hover:text-red-500 transition duration-300 w-full text-center">Contact</a></li>
+            <li><a href="#home" className="text-black text-xl hover:text-red-500 transition duration-300 w-full text-center">Home</a></li>
+            <li><a href="#about" className="text-black text-xl hover:text-red-500 transition duration-300 w-full text-center">About</a></li>
+            <li><a href="#explore" className="text-black text-xl hover:text-red-500 transition duration-300 w-full text-center">Explore</a></li>
+            <li><a href="#contact" className="text-black text-xl hover:text-red-500 transition duration-300 w-full text-center">Contact</a></li>
           </ul>
         </div>
       </nav>
