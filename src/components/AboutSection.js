@@ -5,7 +5,7 @@ function AboutSection() {
     <section className="py-20 bg-white text-center md:flex md:items-center" id="about">
       <div className="md:w-1/2 p-4">
         <img
-          src="https://img.freepik.com/premium-photo/business-handshake-south-korea-flag-background_654297-84.jpg" // Replace with relevant company image
+          src="/kfsb-lanka-korean.jpeg" // Replace with relevant company image
           alt="About KFSB"
           className="rounded-lg "
         />

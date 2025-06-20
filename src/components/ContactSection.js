@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhoneAlt, FaFax, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'; // Importing icons
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'; // Importing icons
 
 function ContactSection() {
   return (
@@ -27,16 +27,8 @@ function ContactSection() {
               <FaPhoneAlt />
             </div>
             <h3 className="text-xl font-semibold mb-2">Phone</h3>
-            <p className="text-lg text-black">+82 10 3932 2357</p>
-          </div>
-
-          {/* Fax Section */}
-          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
-            <div className="text-black text-4xl mb-4">
-              <FaFax />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Fax</h3>
-            <p className="text-lg text-black">+82 70 4131 8944</p>
+            <p className="text-lg text-black">+82 10 7569 6369</p>
+            <p className="text-lg text-black">+94 77 009 6369</p>
           </div>
 
           {/* Email Section */}
@@ -46,7 +38,7 @@ function ContactSection() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
             <p className="text-lg text-gray-700">
-              <a href="mailto:kfsb23@naver.com" className="text-black">kfsb23@naver.com</a>
+              <a href="mailto:kfsbnest@gmail.com" className="text-black">kfsbnest@gmail.com</a>
             </p>
           </div>
 
@@ -55,9 +47,20 @@ function ContactSection() {
             <div className="text-black text-4xl mb-4">
               <FaMapMarkerAlt />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Address</h3>
+            <h3 className="text-xl font-semibold mb-2">Sri Lanka Office</h3>
             <p className="text-lg text-gray-700">
-              Byeongjeomjungang-ro 170beon-gil, Hwaseong-si, Gyeonggi-do, Republic of Korea (SINDO Building 4th Floor)
+              Orex City Shopping Complex, 4th Floor, No. 558, Ekala, Ja Ela, Sri Lanka
+            </p>
+            
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="text-black text-4xl mb-4">
+              <FaMapMarkerAlt />
+            </div>
+             <h3 className="text-xl font-semibold mb-2 mt-4">Korea Office</h3>
+            <p className="text-lg text-gray-700">
+              56 Hadang-ro, Mokpo-si, Jeollanam-do, Sangdong 960-2, 3rd Floor, 2nd Unit, Korea
             </p>
           </div>
         </div>
